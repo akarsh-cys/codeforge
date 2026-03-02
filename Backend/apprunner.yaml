@@ -2,7 +2,7 @@ version: 1.0
 runtime: docker
 
 build:
-  dockerfile: Backend/Dockerfile
+  dockerfile: Dockerfile
   context: .
 
 run:
