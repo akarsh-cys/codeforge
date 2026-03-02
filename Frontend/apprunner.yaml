@@ -1,0 +1,14 @@
+version: 1.0
+runtime: docker
+
+build:
+  dockerfile: Frontend/Dockerfile
+  context: .
+  args:
+    VITE_API_BASE: https://YOUR_BACKEND_URL
+
+run:
+  command: ""
+  network:
+    port: 80
+    env: PORT
