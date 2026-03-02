@@ -1,5 +1,5 @@
 version: 1.0
-runtime: docker
+runtime: python:3.11-slim
 
 build:
   dockerfile: Dockerfile
